@@ -137,3 +137,9 @@ button {
     object-fit: cover;
     display: block;
 }
+
+/* BONUS: il primo video occupa 2 colonne e 2 righe */
+.tile.grande {
+    grid-column: span 2;
+    grid-row: span 2;
+}
